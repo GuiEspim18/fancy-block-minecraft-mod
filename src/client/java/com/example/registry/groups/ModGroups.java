@@ -23,6 +23,7 @@ public class ModGroups {
         Registry.register(Registries.ITEM_GROUP, FANCY_BLOCKS_ITEM_GROUP_KEY, FANCY_BLOCKS_ITEM_GROUP);
         ItemGroupEvents.modifyEntriesEvent(FANCY_BLOCKS_ITEM_GROUP_KEY).register(itemGroup -> {
             itemGroup.add(ModItems.SLATTED_WALL);
+            itemGroup.add(ModItems.HERRINGBONE_FLOOR);
         });
     }
 
