@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "1.0.0",
+  "name": "Fancy Mod",
+  "description": "Adiciona blocos ao Minecraft.",
+  "authors": [
+    "Gui"
+  ],
+  "license": "MIT",
+  "entrypoints": {
+    "main": [
+      "com.example.ExampleModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.21"
+  }
+}
