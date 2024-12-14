@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "modid:item/slatted_wall"
+    "model": "modid:item/dark_oak_slatted_wall"
   }
 }

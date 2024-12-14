@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "modid:block/slatted_wall"
+    "all": "modid:block/dark_oak_slatted_wall"
   }
 }

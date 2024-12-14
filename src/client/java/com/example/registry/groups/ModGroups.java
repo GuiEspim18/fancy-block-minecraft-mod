@@ -15,14 +15,14 @@ public class ModGroups {
 
     public static final RegistryKey<ItemGroup> FANCY_BLOCKS_ITEM_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of("modid", "fancy_blocks"));
     public static final ItemGroup FANCY_BLOCKS_ITEM_GROUP = FabricItemGroup.builder()
-            .icon(() -> new ItemStack(ModItems.SLATTED_WALL))
+            .icon(() -> new ItemStack(ModItems.DARK_OAK_SLATTED_WALL))
             .displayName(Text.translatable("Fancy Blocks"))
             .build();
 
     public static void initialize() {
         Registry.register(Registries.ITEM_GROUP, FANCY_BLOCKS_ITEM_GROUP_KEY, FANCY_BLOCKS_ITEM_GROUP);
         ItemGroupEvents.modifyEntriesEvent(FANCY_BLOCKS_ITEM_GROUP_KEY).register(itemGroup -> {
-            itemGroup.add(ModItems.SLATTED_WALL);
+            itemGroup.add(ModItems.DARK_OAK_SLATTED_WALL);
             itemGroup.add(ModItems.HERRINGBONE_FLOOR);
             itemGroup.add(ModItems.TUFYS_BLOCK);
             itemGroup.add(ModItems.SPRUCE_SLATTED_WALL);
