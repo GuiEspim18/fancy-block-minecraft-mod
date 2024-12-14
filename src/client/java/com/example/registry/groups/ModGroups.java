@@ -24,6 +24,8 @@ public class ModGroups {
         ItemGroupEvents.modifyEntriesEvent(FANCY_BLOCKS_ITEM_GROUP_KEY).register(itemGroup -> {
             itemGroup.add(ModItems.SLATTED_WALL);
             itemGroup.add(ModItems.HERRINGBONE_FLOOR);
+            itemGroup.add(ModItems.TUFYS_BLOCK);
+            itemGroup.add(ModItems.SPRUCE_SLATTED_WALL);
         });
     }
 
